@@ -40,9 +40,8 @@ cd ns-ceiling-fan
 4. git pull all submodules
 ```bash
 git submodule init
-git pull --recurse-submodules
 git pull --recurse-submodules  && git submodule update --recursive
-git submodule foreach git pull origin master
+git submodule update --remote --merge
 ```
 3. Build Images and bring up the application.
 ```bash
