@@ -1,0 +1,6 @@
+[submodule "ns-ceiling-fan-frontend"]
+	path = ns-ceiling-fan-frontend
+	url = https://github.com/dinbtechit/ns-ceiling-fan-frontend.git
+[submodule "ns-ceiling-fan-backend"]
+	path = ns-ceiling-fan-backend
+	url = https://github.com/dinbtechit/ns-ceiling-fan-backend.git
