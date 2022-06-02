@@ -35,7 +35,7 @@ git pull --recurse-submodules
 ```
 3. Build Images and bring up the application.
 ```
-http://192.168.195.128:3000/api/v1/fan/status
+docker-compose up -d --build frontend backend
 ```
 **output:**
 ```
@@ -56,5 +56,8 @@ http://localhost:8080
 ```
 
 5. NSFan Demo
+<p align="center">
 
 ![](./readme/demo.gif)
+
+</p>
