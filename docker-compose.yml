@@ -7,12 +7,8 @@ services:
     ports:
       - '6379:6379'
     command: redis-server /usr/local/etc/redis/redis.conf
-    networks:
-      nsfan:
-        aliases:
-          - redis
     volumes:
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
+      - ./ns-ceiling-fan-backend/redis.conf:/usr/local/etc/redis/redis.conf
       - my-redis-local:/data
   backend:
     container_name: backend
@@ -23,10 +19,6 @@ services:
       - '3000:3000'
     environment:
       REDIS_HOST: 'redis'
-    networks:
-      nsfan:
-        aliases:
-          - backend
     depends_on:
       - redis
   frontend:
@@ -34,17 +26,10 @@ services:
     build:
       context: ./ns-ceiling-fan-frontend
       dockerfile: 'Dockerfile'
-    networks:
-      nsfan:
-        aliases:
-          - frontend
     ports:
       - '8080:80'
-
-networks:
-  nsfan:
-    external: true
-
+    depends_on:
+      - backend
 volumes:
   my-redis-local:
     driver: local

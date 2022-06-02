@@ -20,10 +20,14 @@ A back-end to handle the logic for operating the fan as follows:
 > Please note the Following instructions are for a linux distro.
 > Instructions on other operating system might vary.
 
-**Prerequisites:**
+### Prerequisites:
 
-Requires `docker` and `docker-componse` to be installed on your machine.
+Requires following to be installed on the machine.
+1. git (lastest)
+2. docker - version 20.10.16 or higher
+3. docker-compose - version 1.29.2 or higher
 
+### Steps
 
 1. git clone ns-ceiling-fan monorepo
 ```bash
@@ -55,7 +59,5 @@ http://localhost:8080
 
 5. NSFan Demo
 <p align="center">
-
-![](./readme/demo.gif)
-
+ <img src="./readme/demo.gif"/>
 </p>
