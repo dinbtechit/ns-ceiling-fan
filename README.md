@@ -61,3 +61,20 @@ http://localhost:8080
 <p align="center">
  <img src="./readme/demo.gif"/>
 </p>
+
+6. To Stop all the containers
+```
+$ docker-compose down
+```
+**output**
+```                          
+Stopping frontend ... done
+Stopping backend  ... done
+Stopping redis    ... done
+Removing frontend ... done
+Removing backend  ... done
+Removing redis    ... done
+Removing network ns-ceiling-fan_default
+```
+
+# Thank you
