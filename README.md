@@ -37,13 +37,13 @@ git clone https://github.com/dinbtechit/ns-ceiling-fan.git
 ```bash
 cd ns-ceiling-fan
 ```
-4. git pull all submodules
+3. git pull all submodules
 ```bash
 git submodule init
 git pull --recurse-submodules  && git submodule update --recursive
 git submodule update --remote --merge
 ```
-3. Build Images and bring up the application.
+4. Build Images and bring up the application.
 ```bash
 docker-compose up -d --build frontend backend
 ```
@@ -56,23 +56,27 @@ Creating redis    ... done
 Creating backend  ... done
 ```
 
-4. Open browser preferably chrome (NSFan is not supported on IE)
+5. Open browser preferably chrome (NSFan is not supported on IE)
 
 > **Note:** website is accessible only on localhost.
 ```
 http://localhost:8080
 ```
 
-5. NSFan Demo
+6. NSFan Demo
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/17984781/171552948-8104601a-1563-4952-9ce8-852e07f2d402.gif"/>
 </p>
 
 
-6. To Stop all the containers
+7. To stop all the containers & clean all the docker files
 ```
 $ docker-compose down
+$ docker system prune -f
+$ docker image prune -f
+$ docker container prune -f
+$ docker volume prune -f
 ```
 **output**
 ```                          
