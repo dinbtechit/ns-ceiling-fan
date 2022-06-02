@@ -64,9 +64,11 @@ http://localhost:8080
 ```
 
 5. NSFan Demo
+
 <p align="center">
  <img src="./readme/demo.gif"/>
 </p>
+
 
 6. To Stop all the containers
 ```
