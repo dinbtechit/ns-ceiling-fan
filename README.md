@@ -33,9 +33,15 @@ Requires following to be installed on the machine.
 ```bash
 git clone https://github.com/dinbtechit/ns-ceiling-fan.git
 ```
-2. git pull all submodules
+2. cd into the cloned repo
 ```bash
-git pull --recurse-submodules
+cd ns-ceiling-fan
+```
+4. git pull all submodules
+```bash
+git submodule init
+git pull --recurse-submodules  && git submodule update --recursive
+git submodule update --remote --merge
 ```
 3. Build Images and bring up the application.
 ```bash
