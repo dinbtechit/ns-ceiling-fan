@@ -15,9 +15,6 @@ A back-end to handle the logic for operating the fan as follows:
 - One to reverse direction at the current speed setting
 - Remain in same direction as speeds are cycled, until reversed again
 
-# Screenshot
-
-
 
 # Instructions to Run
 > Please note the Following instructions are for a linux distro.
@@ -60,4 +57,4 @@ http://localhost:8080
 
 5. NSFan Demo
 
-![](/u1/code/personal/novascotia/ns-ceiling-fan/readme/demo.gif)
+![](./readme/demo.gif)
