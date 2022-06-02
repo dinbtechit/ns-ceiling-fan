@@ -19,7 +19,7 @@ A back-end to handle the logic for operating the fan as follows:
 ## High-level Architecture:
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/17984781/171726894-9a4176cf-f656-449c-a60e-df7b39124989.png"/>
+ <img src="https://user-images.githubusercontent.com/17984781/171744000-6ba9ab0e-0a7c-4d51-95fa-bfb3784158df.png"/>
 </p>
 
 
