@@ -23,7 +23,7 @@ A back-end to handle the logic for operating the fan as follows:
 ### Prerequisites:
 
 Requires following to be installed on the machine.
-1. git (lastest)
+1. git (latest)
 2. docker - version 20.10.16 or higher
 3. docker-compose - version 1.29.2 or higher
 
