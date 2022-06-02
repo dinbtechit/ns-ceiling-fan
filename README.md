@@ -30,22 +30,20 @@ Requires `docker` and `docker-componse` to be installed on your machine.
 git clone https://github.com/dinbtechit/ns-ceiling-fan.git
 ```
 2. git pull all submodules
-```
+```bash
 git pull --recurse-submodules
 ```
 3. Build Images and bring up the application.
-```
+```bash
 docker-compose up -d --build frontend backend
 ```
 **output:**
 ```
-...
 Successfully built 2e19b15cdbd8
 Successfully tagged ns-ceiling-fan_frontend:latest
 Creating frontend ... done
 Creating redis    ... done
 Creating backend  ... done
-
 ```
 
 4. Open browser preferably chrome (NSFan is not supported on IE)
