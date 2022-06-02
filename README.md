@@ -16,6 +16,13 @@ A back-end to handle the logic for operating the fan as follows:
 - Remain in same direction as speeds are cycled, until reversed again
 
 
+## High-level Architecture:
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/17984781/171726894-9a4176cf-f656-449c-a60e-df7b39124989.png"/>
+</p>
+
+
 # Instructions to Run
 > Please note the Following instructions are for a linux distro.
 > Instructions on other operating system might vary.
