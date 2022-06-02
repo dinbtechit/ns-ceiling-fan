@@ -66,7 +66,7 @@ http://localhost:8080
 5. NSFan Demo
 
 <p align="center">
- <img src="./readme/demo.gif"/>
+ <img src="https://user-images.githubusercontent.com/17984781/171552948-8104601a-1563-4952-9ce8-852e07f2d402.gif"/>
 </p>
 
 
