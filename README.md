@@ -77,13 +77,9 @@ http://localhost:8080
 </p>
 
 
-7. To stop all the containers & clean all the docker files
+7. To stop all the containers & clean all the docker images
 ```
-$ docker-compose down
-$ docker system prune -f
-$ docker image prune -f
-$ docker container prune -f
-$ docker volume prune -f
+docker-compose down -v --remove-orphans --rmi all
 ```
 **output**
 ```                          
@@ -94,6 +90,10 @@ Removing frontend ... done
 Removing backend  ... done
 Removing redis    ... done
 Removing network ns-ceiling-fan_default
+Removing volume ns-ceiling-fan_my-redis-local
+Removing image redis
+Removing image ns-ceiling-fan_backend
+Removing image ns-ceiling-fan_frontend
 ```
 
 # Thank you
